@@ -42,8 +42,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="addFreeThrowHome"
-                android:text="Free Throw"
+                android:onClick="addTouchDownHome"
+                android:text="TouchDown"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"/>
@@ -53,8 +53,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoPointsHome"
-                android:text="+2 Points"
+                android:onClick="addExtraPointHome"
+                android:text="Extra Point"
                 android:layout_marginBottom="8dp"/>
 
             <Button
@@ -62,8 +62,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addThreePointsHome"
-                android:text="+3 Points" />
+                android:onClick="addFieldGoalHome"
+                android:text="Field Goal"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addSafetyHome"
+                android:text="Safety" />
 
         </LinearLayout>
 
@@ -104,10 +113,10 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="addTouchDownAway"
+                android:text="TouchDown"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addFreeThrowAway"
-                android:text="Free Throw"
                 android:layout_marginBottom="8dp"/>
 
             <Button
@@ -115,8 +124,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addTwoPointsAway"
-                android:text="+2 Points"
+                android:onClick="addExtraPointAway"
+                android:text="Extra Point"
                 android:layout_marginBottom="8dp"/>
 
             <Button
@@ -124,8 +133,17 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:onClick="addThreePointsAway"
-                android:text="+3 Points" />
+                android:onClick="addFieldGoalAway"
+                android:text="Field Goal"
+                android:layout_marginBottom="8dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:onClick="addSafetyAway"
+                android:text="Safety" />
 
         </LinearLayout>
 

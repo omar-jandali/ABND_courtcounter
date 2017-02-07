@@ -16,33 +16,43 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void addThreePointsHome(View view){
-        homePoints = homePoints + 3;
+    public void addTouchDownHome(View view){
+        homePoints = homePoints + 7;
         displayForHomeTeam(homePoints);
     }
 
-    public void addTwoPointsHome(View view){
-        homePoints = homePoints + 2;
-        displayForHomeTeam(homePoints);
-    }
-
-    public void addFreeThrowHome(View view){
+    public void addExtraPointHome(View view){
         homePoints = homePoints + 1;
         displayForHomeTeam(homePoints);
     }
 
-    public void addThreePointsAway(View view){
+    public void addFieldGoalHome(View view){
+        homePoints = homePoints + 3;
+        displayForHomeTeam(homePoints);
+    }
+
+    public void addSafetyHome(View view){
+        homePoints = homePoints + 2;
+        displayForHomeTeam(homePoints);
+    }
+
+    public void addTouchDownAway(View view){
+        awayPoints = awayPoints + 7;
+        displayForAwayTeam(awayPoints);
+    }
+
+    public void addExtraPointAway(View view){
+        awayPoints = awayPoints + 1;
+        displayForAwayTeam(awayPoints);
+    }
+
+    public void addFieldGoalAway(View view){
         awayPoints = awayPoints + 3;
         displayForAwayTeam(awayPoints);
     }
 
-    public void addTwoPointsAway(View view){
+    public void addSafetyAway(View view){
         awayPoints = awayPoints + 2;
-        displayForAwayTeam(awayPoints);
-    }
-
-    public void addFreeThrowAway(View view){
-        awayPoints = awayPoints + 1;
         displayForAwayTeam(awayPoints);
     }
 
